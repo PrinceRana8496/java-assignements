@@ -33,8 +33,8 @@ public class Question4 {
 
         // parameter constructor reference
         PersonFactory namedCreator = Person::new;
-        Person john = namedCreator.create("Aman");
-        Person mary = namedCreator.create("Sumit");
+        Person Aman = namedCreator.create("Aman");
+        Person Sumit = namedCreator.create("Sumit");
 
 
     }
